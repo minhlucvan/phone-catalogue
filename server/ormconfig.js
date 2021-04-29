@@ -1,6 +1,6 @@
 module.exports = {
     type: process.env.DB_TYPE,
-    database: process.env.DATABASE,
+    database: process.env.DATABASE_NAME,
     host: process.env.DATABASE_HOST,
     port: parseInt(process.env.DATABASE_PORT, 10),
     username: process.env.DATABASE_USER,

@@ -40,7 +40,7 @@ export class PhonesController {
   @ApiOperation({
     description: 'Get phone detail',
   })
-  @ApiParam({ name: "phoneId", type: "string" })
+  @ApiParam({ name: 'phoneId', type: 'string' })
   @ApiOkResponse({
     status: 200,
     type: PhoneDto,
@@ -68,7 +68,7 @@ export class PhonesController {
   @ApiOperation({
     description: 'Update phone',
   })
-  @ApiParam({ name: "phoneId", type: "string" })
+  @ApiParam({ name: 'phoneId', type: 'string' })
   @ApiCreatedResponse({
     type: PhoneDto,
     isArray: false,
@@ -82,7 +82,7 @@ export class PhonesController {
   @ApiOperation({
     description: 'Delete phone',
   })
-  @ApiParam({ name: "phoneId", type: "string" })
+  @ApiParam({ name: 'phoneId', type: 'string' })
   delete(@Param('phoneId') phoneId) {
     return this.phonesService.deleteOne(phoneId);
   }

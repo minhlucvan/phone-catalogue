@@ -8,8 +8,8 @@ COPY ./package.json /usr/src/app/package.json
 RUN npm install
 
 COPY . /usr/src/app/
-RUN rm .env
-RUN cp .env.production .env
+COPY ./.env.production /usr/src/app/.env
+
 RUN npm run build
 
 CMD [ "npm", "run", "start:prod" ]
