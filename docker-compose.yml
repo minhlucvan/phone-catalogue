@@ -43,6 +43,6 @@ services:
         - phone_api
         - phone_client
       ports:
-        - 80:80
+        - 8080:80
       volumes:
         - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf

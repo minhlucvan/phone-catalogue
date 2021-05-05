@@ -4,26 +4,7 @@
 
 [REACT-PhoneCatalog-code-challenge](./docs/REACT-PhoneCatalog-code-challenge.pdf)
 
-### Compoments
-- **Gateway**: ***Nginx*** proxy to forwarding request form client
-- **Server**:  ***Nestjs*** server and **PostgreSQL**  database to process request and store data
-- ***Client***: **Reactjs** and **Redux** client to render UI and call API. 
-
-## Features
-
-- :heavy_check_mark: Rest API CRUD phone
-- :heavy_check_mark: Server Swagger docs 
-- :heavy_check_mark: Server Unit testing 
-- :heavy_check_mark: Server end to end testing 
-- :heavy_check_mark: Material UI React
-- :heavy_check_mark: Redux state management
-- :heavy_check_mark: React unit testing
-- :heavy_check_mark: Proxy docker nginx
-- :heavy_check_mark: Server docker build and run
-- :heavy_check_mark: Client multiple stages docker build and run
-
-## Installation
-
+## Development
 ### Server 
 
 ```bash
@@ -59,28 +40,12 @@ npm install
 npm start
 ```
 
-swagger docs: [http://localhost:3000](http://localhost:3000)
-
-## Deployment
-
-## All in one
+local url: [http://localhost:3000](http://localhost:3000)
+## Docker deployment
 
 ```bash
 docker compose build
 docker compose up -d
 ```
 
-## Testing
-
-### Server
-unit test
-```bash
-npm run test:cov
-```
-
-end to end test
-```bash
-npm run test:e2e
-```
-
-![](./docs/server-test-cov.png)
+docker url: [http://localhost:8080](http://localhost:3000)
