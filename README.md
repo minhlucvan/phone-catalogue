@@ -44,7 +44,7 @@ local url: [http://localhost:3000](http://localhost:3000)
 
 ## Testing
 
-### Server
+### Server ([Read more](./server/README.md))
 
 ```bash
 cd server
