@@ -41,6 +41,29 @@ npm start
 ```
 
 local url: [http://localhost:3000](http://localhost:3000)
+
+## Testing
+
+### Server
+
+```bash
+cd server
+```
+
+```bash
+npm run test
+```
+
+### Client
+
+```bash
+cd react-app
+```
+
+```bash
+npm run test
+```
+
 ## Docker deployment
 
 ```bash
