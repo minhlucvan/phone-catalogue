@@ -67,8 +67,8 @@ npm run test
 ## Docker deployment
 
 ```bash
-docker compose build
-docker compose up -d
+docker-compose build
+docker-compose up -d
 ```
 
 docker url: [http://localhost:8080](http://localhost:3000)
